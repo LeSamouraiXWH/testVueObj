@@ -1,10 +1,6 @@
 <template>
   <div id="app">
-    <router-link to="/home">首页 </router-link>
-    <router-link :to="'/about/'+userId">关于</router-link>
-    <keep-alive>
-      <router-view/>
-    </keep-alive>
+啊啊
 
   </div>
 
@@ -15,7 +11,7 @@ export default {
 
   data(){
     return {
-      userId:'123'
+
     }
   },
   name: 'App'
