@@ -1,22 +1,20 @@
 <template>
+
   <div id="app">
-啊啊
+      <router-view></router-view>
+        <MainTabBar></MainTabBar>
 
   </div>
 
 </template>
 <script>
-
-export default {
-
-  data(){
-    return {
-
+  import MainTabBar from "./components/MainTabBar";
+  export default {
+    name: 'App',
+    components:{
+      MainTabBar
     }
-  },
-  name: 'App'
-
-}
+  }
 
 </script>
 <style>
