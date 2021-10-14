@@ -28,6 +28,6 @@
 }
   body{
     padding: 0;
-    margin: 0;
+    margin: 1px;
   }
 </style>
